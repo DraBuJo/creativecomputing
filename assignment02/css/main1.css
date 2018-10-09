@@ -1,0 +1,16 @@
+
+.green{
+	color:green;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+#article-title {
+  font-family: cursive;
+  text-transform: capitalize;
+  color:yellow;
+}
+h1{
+	color:red;
+}
