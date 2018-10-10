@@ -1,15 +1,9 @@
 
-.green{
-	color:green;
-}
 
-.uppercase {
-  text-transform: uppercase;
-}
 #article-title {
   font-style: normal;
   text-transform: capitalize;
-  color:yellow;
+  
 }
 h1{
 	color:red;
@@ -17,12 +11,12 @@ h1{
 	font-family:Times New Roman;
 }
 #first{
-	color:blue;
+	color:green;
 	font-family:helvetica; 
 	font-size: 20px;
 }
 article{
-	width:30vw;
+	width:40vw;
 	margin-top:0;
 	margin-bottom:0;
 	margin-right:auto;
@@ -32,16 +26,27 @@ article{
 #name{
 	text-align: center;
 	font-style: italic;
+	font-size:15px; 
 }
 img{
 	float: center;
 	margin:2px;
 }
-#dropcap{
+.firstcharacter{
+	color:purple;
+	float:auto;
+	font-family:georgia;
+	font-size:60px;
+	line-height:60px;
+	padding-top:4px;
+	padding-right:8px;
+	padding-left:3px;
+}
+/*#dropcap{
 	float:left;
 	display:block;
-	width:80px;
-	height:80px;
+	width:60px;
+	height:60px;
 	font-size:100px;
 	box-sizing:border-box;
 	color:red;
