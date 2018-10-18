@@ -1,0 +1,19 @@
+.grid{
+  display:grid;
+  
+  grid-template-columns:repeat(8,100px);
+  grid-template-rows:repeat(8,100px);
+}
+.grid div{
+  background:black;
+  min-height:100px;
+  min-width:1fr;
+  
+}
+#one{
+  background:white;
+}
+p{
+	font-size: 100px;
+	text-align: center;
+}

@@ -1,0 +1,28 @@
+p{
+	font-size:40px;
+	text-align: center;
+}
+
+
+.row{
+  position:relative;
+  /*margin-left:10%;*/
+  /*margin-right:10%;*/
+}
+.clear{
+  clear:both;
+}
+.white{
+  
+  width:100px;
+  height:100px;
+  background-color:white;
+  float: left;
+}
+.black{
+  
+  width:100px;
+  height:100px;
+  background-color:black;
+  float:left;
+  }

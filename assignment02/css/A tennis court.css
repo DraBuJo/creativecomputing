@@ -1,0 +1,73 @@
+p{
+	font-size:100px;
+	text-align: center;
+}
+.court{
+  
+  width:600px;
+  height:600px;
+  display:grid;
+  margin: 100px auto;
+  background:black;
+
+  
+}
+
+.court_grid{
+  display:grid;
+ 
+  
+  grid-template-columns:repeat(6,100px);
+  grid-template-rows:repeat(6,100px);
+  background:black;
+  
+  
+}
+.court_cell{
+	background: black;
+  box-shadow: inset 0 0 0 2px white;
+}
+.top_left{
+  grid-row:1/4;
+
+}
+.top{
+	grid-column:2/6;
+}
+.top_right{
+	grid-row: 1/4;
+	grid-column:6/7; 
+}
+
+.middle_one{
+	grid-row:2/4; 
+	grid-column:4/2;
+	
+}
+.middle_two{
+    grid-row:2/4; 
+	grid-column:6/4;
+	
+}
+.middle_three{
+	grid-row:6/4; 
+	grid-column:4/2;
+	
+}
+.middle_four{
+	grid-row:6/4; 
+	grid-column:4/6;
+}	
+.bottom_left{
+	grid-row:4/7; 
+}
+.bottom{
+	grid-row:6/6; 
+	grid-column:2/6; 
+	
+}
+.bottom_right{
+	grid-row:7/4; 
+	grid-column:6/7;
+	
+}
