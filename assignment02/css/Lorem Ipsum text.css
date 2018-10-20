@@ -1,0 +1,58 @@
+h1{
+	text-align:center;
+}
+p{
+	/*margin-left:100px;
+	margin-right:100px;*/
+	margin:0 100px;
+}
+.box1{
+	height:150px;
+	background: pink;
+	width:250px;
+	float: right;
+	position:fixed;
+	left:50%;
+}
+.box2{
+	height:40px;
+	background: blue;
+	width:150px;
+	float: left;
+	position:fixed;
+	right:30px;
+}
+.box3{
+	height:150px;
+	background: green;
+	width:300px;
+	float: left;
+	position:fixed;
+	bottom: 30%;
+	opacity:0.6;
+	
+}
+.box4{
+	height:200px;
+	background: red;
+	width:100px;
+	float: right;
+	position:fixed;
+	top:70%;
+}
+.box5{
+	height:100px;
+	background: yellow;
+	width:200px;
+	float: right;
+	position:fixed;
+}
+.box6{
+	height:50px;
+	background: violet;
+	width:60px;
+	float: left;
+	position:fixed;
+	right:70%;
+	top:20%;
+}
