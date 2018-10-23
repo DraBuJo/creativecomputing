@@ -1,12 +1,17 @@
+.container{
+	width:1000px;
+	height:1000px;
+}
 .box{
-	height:20px;
+	height:200px;
 	width:50px;
 	background: red;
-	
+	float:left;
 	display:block;
+	box-sizing: border-box;
 }
-.clear{
-  clear:both;
+/*.clear{
+  clear:both;*/
 }
 #box1{
 	position: relative;
@@ -16,6 +21,39 @@
 #box2{
 	position: relative;
 	float:left;
-	left: 100px;
+	border-left: 1px solid white;
 	display: block;
+	top:20px;
+}
+#box3{
+	position: relative;
+	float:left;
+	border-left: 1px solid white;
+	display: block;
+	top:40px;
+
+}
+#box4{
+	position: relative;
+	float:left;
+	border-left: 1px solid white;
+	display: block;
+	top:10px;
+
+}
+#box5{
+	position: relative;
+	float:left;
+	border-left: 1px solid white;
+	display: block;
+	top:60px;
+
+}
+#box6{
+	position: relative;
+	float:left;
+	border-left: 1px solid white;
+	display: block;
+	top:40px;
+
 }
