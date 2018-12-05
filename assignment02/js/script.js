@@ -2,6 +2,7 @@ $(function(){
 	var anim_id;
 	var container=$('#container');
 	var car_1 = $('#car_1');
+    var car = $('#car');
     var car_2 = $('#car_2');
     var car_3 = $('#car_3');
     var line_1 = $('#line_1');
@@ -16,13 +17,15 @@ $(function(){
     var car_width = parseInt(car.width());
     var car_height = parseInt(car.height());
     var game_over = false;
-    var Time_counter=;
-    var speed = 2;
+    // var Time_counter=;
+    var score_counter=1; 
+    var speed = 6;
     var line_speed = 5;
     var move_right = false;
     var move_left = false;
     var move_up = false;
     var move_down = false;
+    
     $(document).on('keydown', function(e) {
         if (game_over === false) {
             var key = e.keyCode;
