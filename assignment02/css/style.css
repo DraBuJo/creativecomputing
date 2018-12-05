@@ -13,7 +13,7 @@ body{
 	margin-top:20px;
 	background-color:#7F8C8D;
 	overflow:hidden;
-	border:10px solid green;
+	/*border:10px solid green;*/
 }
 .line{
 	position:absolute;
