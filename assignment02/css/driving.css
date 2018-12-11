@@ -1,0 +1,51 @@
+body{
+	margin:0px;
+	padding:0px;
+	text-align: center;
+	font-size: 30px;
+	
+}
+.container{
+	background-image:url("../image/driving.jpg");
+	background-repeat:no-repeat;
+	z-index: 1;
+	background-size:cover;
+    position:relative;
+    height:800px;
+    width:100%;
+}
+#musicbutton {
+      position:absolute;
+      width: 20px;
+      height: 20px;
+      background: yellow;
+      left:44%;
+      transform: translateY(2550%);
+      border-radius: 50%;
+      
+
+}
+#startbuttom{
+	position:absolute;
+      width: 20px;
+      height: 20px;
+      background: red;
+      border-radius: 50%;
+      left:18%;
+      transform: translateY(520px);
+      font-size: 15px;
+      font-weight: 6px;
+      font-color:white;
+}
+#discription1{
+      color: red;
+      position:absolute;
+      left:800px;
+      transform: translateY(400px);
+}
+#discription2{
+      color: yellow;
+      position:absolute;
+      left:800px;
+      transform: translateY(450px);
+}

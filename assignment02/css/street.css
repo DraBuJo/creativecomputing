@@ -1,0 +1,72 @@
+body {
+  height: 8000px;
+}
+
+div {
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p {
+  font-family: 'times new roman';
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -.01em;
+  width: 50%;
+  text-align: center;
+  margin: 200px auto;
+  
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 6em;
+  margin-top: 220px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  text-shadow: 4px 4px 2px #000;
+  z-index: 1;
+  
+  
+}
+
+#red {
+  background: url("../image/my home.jpg");
+  background-repeat:no-repeat;
+  top: 800px;
+  z-index: 3;
+}
+
+#blue {
+  background: url("../image/map1.png");
+  background-repeat:no-repeat;
+  top: 2400px;
+  z-index: 3;
+}
+
+#yellow {
+  background: url("../image/NSSR.jpg");
+  background-repeat:no-repeat;
+  top: 4000px;
+  z-index: 3;
+}
+.home{
+   height: 550px;
+   z-index: 2;
+
+
+} 
+.maps{
+	height: 500px;
+z-index: 2;
+}
+.school{
+	height: 600px;
+z-index: 2;
+}

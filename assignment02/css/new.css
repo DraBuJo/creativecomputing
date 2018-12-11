@@ -1,0 +1,27 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #45d678;
+    font-family: sans-serif;
+}
+.grid{
+	display:grid;
+  
+  grid-template-columns:repeat(10,1fr);
+  grid-template-rows:repeat(10,1fr);
+
+}
+#help{
+	
+}
+#container{
+	display:grid;
+	position:relative;
+	grid-area:a;
+	
+	margin-top:20px;
+	background-color:#7F8C8D;
+	
+	/*border:10px solid green;*/
+}
